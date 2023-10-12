@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans';
+    color: white;
+}
+
+#suppage{
+    height: 100vh;
+    background-color: #2F1893;
+}
+
+nav{
+    padding: 1vw 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+#slogo{
+    display: flex;
+    padding: 2vw;
+    
+}
+#slogo h3{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+#sitems{
+    display: flex;
+    padding: 2vw;
+    gap: 2vw;
+    margin-right: 2vw;
+
+}
+#sitems #overview{
+    color: gray;
+}
+#sitems h3{
+font-weight: 400;
+font-size: 1.2vw;
+display: flex;
+align-items: center;
+}
+#sitems button{
+    border-radius: 2em;
+    background: #E93A7D;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7vw 1.2vw;
+    cursor: pointer;
+}
+#mbox{
+    display: flex;
+}
+#leftc{
+   padding-left: 7.5vw;
+    width: 50%;
+}
+#leftc h1{
+    font-size: 4vw;
+    margin-bottom: 1.2vw;
+}
+#leftc p{
+    line-height: 2vw;
+    margin-bottom: 2.5vw;
+}
+#leftc button{
+    border: none;
+    border-radius: 1em;
+    background-color: #E93A7D;
+    padding: .5vw 1.5vw;
+    cursor: pointer;
+}
+#rightc{
+    background-color: white;
+    justify-content: center;
+    width: 25%;
+    height: 75vh;
+    border-radius: .5em;
+    padding: 0 4vw  ;
+}
+#rightc h1{ 
+    color: #2F1893;
+    text-align: center;
+    margin: 2vw 0;
+   
+}
+#rightc #inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#rightc input{
+    width: 22vw;
+    margin:0.5vw 0;
+    border-radius: 1.5em;
+    border: 1px solid grey;
+    height: 2.7vw;
+    margin-bottom: 0.5vw;
+  
+}
+
+#tnc{
+    display: flex;
+    gap: .6vw;
+    align-items: center;
+    padding-right: 4vw;
+    justify-content: center;
+    margin-top: 0.5vw ;
+    margin-bottom: 1vw;
+}
+#tnc input{
+    width: 1.2em;
+    height: 1.2em;
+    
+    
+    
+}
+#check:checked{
+    background-color: #25DAC5;
+}
+#tnc p{
+    color:gray;
+    font-size: 14px;
+}
+#boxend{
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 1vw;
+
+}
+#boxend p{
+    color: gray;
+}
+#boxend button{
+    color: black;
+    padding: 0.7vw 0 ;
+    width: 21vw;
+    border-radius: 1.3em;
+    border: none;
+}
+#boxend #btn1{
+    color: white;
+    background-color: #482BE7;
+    padding: .8vw 0;
+    cursor: pointer;
+
+}
+
+#boxend #btn2{
+    background-color: #1DA1F2;
+    color: white;
+    margin-bottom: .5vw;
+    padding: .8vw 0;
+    cursor: pointer;
+
+}
+#acc{
+    display: flex;
+    gap: 0.5vw;
+}
+
+#acc a{
+    color: #25DAC5;
+    text-decoration: none;
+   
+}
